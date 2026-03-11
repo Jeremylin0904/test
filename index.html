@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthcare AI Learning Guide</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <p class="eyebrow">Healthcare + AI Learning Path</p>
+        <h1>Learn Healthcare AI with a Clear, Practical Roadmap</h1>
+        <p class="subtitle">
+          Build your skills from foundations to real-world clinical AI projects while keeping ethics,
+          regulation, and patient safety at the center.
+        </p>
+        <a href="#roadmap" class="button">Start Learning</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="roadmap" class="section container">
+        <h2>6-Step Learning Roadmap</h2>
+        <div class="cards" id="roadmap-cards"></div>
+      </section>
+
+      <section class="section alt">
+        <div class="container split">
+          <div>
+            <h2>Core Topics You Should Master</h2>
+            <ul class="checklist">
+              <li>Clinical workflows and medical terminology</li>
+              <li>Data quality, interoperability (FHIR/HL7), and annotation</li>
+              <li>Model development for tabular, text, and imaging data</li>
+              <li>Evaluation beyond accuracy: sensitivity, specificity, calibration</li>
+              <li>Bias, fairness, and responsible AI in healthcare</li>
+              <li>Regulatory pathways and post-deployment monitoring</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Weekly Study Plan</h3>
+            <p><strong>Weekdays:</strong> 60–90 minutes concept + coding practice</p>
+            <p><strong>Weekend:</strong> 1 mini-project or paper deep-dive</p>
+            <p><strong>Monthly:</strong> publish one portfolio artifact</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container">
+        <h2>Suggested Projects</h2>
+        <div class="project-grid">
+          <article>
+            <h3>Readmission Risk Predictor</h3>
+            <p>Build a risk stratification model and explain predictions with SHAP.</p>
+          </article>
+          <article>
+            <h3>Clinical Note Classifier</h3>
+            <p>Use NLP to categorize notes into diagnoses or care pathways.</p>
+          </article>
+          <article>
+            <h3>Chest X-ray Triage Prototype</h3>
+            <p>Compare baseline CNN performance with safety checks and uncertainty.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-wrap">
+        <p>Keep learning, document your work, and prioritize patient outcomes.</p>
+        <button id="tip-btn">Show me a learning tip</button>
+      </div>
+      <p id="tip-output" aria-live="polite"></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
